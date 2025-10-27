@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Download, Github } from "lucide-react";
+import { Download, Github, ChevronDown } from "lucide-react";
 
 export const Hero = () => {
   return (
@@ -28,9 +28,19 @@ export const Hero = () => {
 
         {/* Tagline */}
         <div className="animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
-          <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-10 leading-relaxed px-4">
+          <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-2 leading-relaxed px-4">
             I build intelligent, scalable, and user-focused systems that connect AI with real-world products.
           </p>
+        </div>
+
+        {/* Open to opportunities with floating arrow */}
+        <div className="animate-fade-in-up mb-10" style={{ animationDelay: "0.35s" }}>
+          <p className="text-sm sm:text-base text-primary font-medium mb-3">
+            ✨ Open to opportunities
+          </p>
+          <div className="flex justify-center">
+            <ChevronDown className="h-6 w-6 text-primary animate-float" />
+          </div>
         </div>
 
         {/* CTA Buttons */}
@@ -59,10 +69,6 @@ export const Hero = () => {
           </Button>
         </div>
 
-        {/* Floating decoration */}
-        <div className="mt-16 flex justify-center">
-          <div className="w-2 h-12 rounded-full bg-gradient-primary animate-float" />
-        </div>
       </div>
     </section>
   );
