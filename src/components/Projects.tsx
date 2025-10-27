@@ -11,7 +11,7 @@ const projects = [
       "Implemented smart contracts on Ethereum using Solidity and Hardhat, and integrated IPFS for decentralized metadata storage.",
       "Enabled secure, automated ticket distribution through MetaMask, Ethers.js, and PDF generation using jsPDF for user-facing digital tickets.",
     ],
-    link: "#",
+    link: "https://github.com/rite7sh/nft-ticketing-dapp",
   },
   {
     title: "Product Recommendation System",
@@ -21,7 +21,7 @@ const projects = [
       "Designed and integrated a FastAPI backend for embedding indexing and querying; built a React.js frontend with Tailwind CSS for a responsive UI.",
       "Deployed the full-stack application using Docker with persistent storage volumes to ensure scalable and reliable performance.",
     ],
-    link: "#",
+    link: "https://github.com/rite7sh/qdrant-product-recommender",
   },
   {
     title: "Blue Enigma Hybrid AI System",
@@ -31,7 +31,7 @@ const projects = [
       "Enhanced retrieval accuracy by combining semantic search and graph reasoning, improving response coherence and contextual relevance.",
       "Built an end-to-end FastAPI–React application featuring real-time streaming chat, scalable data pipelines, and modular APIs for future expansion.",
     ],
-    link: "#",
+    link: "https://github.com/rite7sh/blue-enigma-hybrid-ai",
   },
   {
     title: "Air Lasso Tool",
@@ -41,7 +41,7 @@ const projects = [
       "Simulated a virtual pen using color or gesture-based detection, allowing touchless interaction for selection and annotation tasks.",
       "Designed for accessibility and contactless control in digital art, UI navigation, and computer vision-based interfaces.",
     ],
-    link: "#",
+    link: "https://github.com/rite7sh/air-lasso-tool",
   },
 ];
 
